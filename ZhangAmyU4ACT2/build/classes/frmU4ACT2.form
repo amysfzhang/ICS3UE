@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Component id="lblPrimeInstrcution" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblFibonacciInstruction" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblFactorialInstruction" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtPrimeInput" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                                      <Component id="btnPrime" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="lblPrimeOutput" min="-2" pref="239" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtFibonacciInput" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                                      <Component id="btnFibonacci" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="lblFibonacciOutput" min="-2" pref="239" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      <Component id="txtFactorialInput" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
+                      <Component id="btnFactorial" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblFactorialOutput" min="-2" pref="239" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="280" max="32767" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="lblFactorialInstruction" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtFactorialInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFactorial" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFactorialOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="lblPrimeInstrcution" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtPrimeInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnPrime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPrimeOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="lblFibonacciInstruction" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtFibonacciInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFibonacci" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFibonacciOutput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="--NUMBERS--"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFactorialInstruction">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a positive integer and click the button to find the factorial:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrimeInstrcution">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a positive integer and click the button to determine whether or not it is a prime number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFibonacciInstruction">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter a positive integer and click the button to see the corresponding Fibonacci number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFactorialInput">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFibonacciInput">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPrimeInput">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPrime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prime"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPrimeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFactorial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Factorial"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFactorialActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFibonacci">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fibonacci"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFibonacciActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFactorialOutput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPrimeOutput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFibonacciOutput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="..."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

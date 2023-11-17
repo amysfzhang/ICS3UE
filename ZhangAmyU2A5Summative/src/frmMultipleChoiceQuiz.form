@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblQ3Choices" min="-2" pref="452" max="-2" attributes="0"/>
+                                  <Component id="lblQ1Choices" min="-2" pref="452" max="-2" attributes="0"/>
+                                  <Component id="lblQ2Choices" min="-2" pref="452" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblQ1Feedback" alignment="1" pref="208" max="32767" attributes="0"/>
+                                  <Component id="lblQ2Feedback" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="lblQ3Feedback" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblQ4Choices" min="-2" pref="411" max="-2" attributes="0"/>
+                                  <Component id="lblQ5Choices" min="-2" pref="411" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblQ4Feedback" pref="208" max="32767" attributes="0"/>
+                                  <Component id="lblQ5Feedback" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblQ3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtQ3Answer" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblQ4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtQ4Answer" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lblQ2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtQ2Answer" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Component id="lblInstruction1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="lblQ1" pref="704" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="txtQ1Answer" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnQ4Check" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ3Check" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ1Check" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ2Check" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblQ5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="txtQ5Answer" min="-2" pref="30" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="btnQ5Check" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblInstruction2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="222" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblTotalCorrect" min="-2" pref="127" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="lblTotalIncorrect" min="-2" pref="126" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="lblPercentCorrect" min="-2" pref="195" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                          <Component id="btnStatistics" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="lblScore" min="-2" pref="112" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblInstruction3" min="-2" pref="350" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="249" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" pref="43" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblInstruction1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblInstruction2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblInstruction3" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQ1Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ1Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ1Choices" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQ1Feedback" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQ2Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ2Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ2Choices" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQ2Feedback" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQ3Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ3Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ3Choices" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQ3Feedback" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ4Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQ4Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ4Choices" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQ4Feedback" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnQ5Check" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtQ5Answer" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblQ5Choices" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblQ5Feedback" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                      <Component id="btnStatistics" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblScore" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblTotalCorrect" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="lblTotalIncorrect" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblPercentCorrect" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Welcome to Amy&apos;s Multiple Choice Quiz!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInstruction1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Please type the letter corresponding to your answer in the text box on the right"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Q1: Which of the following follow Mr. Jeg&apos;s version of the camel case naming convention?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ1Choices">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a) intFinalMark  b) intfinalmark  c) finalMark  d) FinalMark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQ1Answer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQ1AnswerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ1Feedback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feedback:                                    "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Q2: In a flow chart, what shape is used to show input?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ2Choices">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a) Oval  b) Rectangle  c) Parallelogram  d) Diamond"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQ2Answer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQ2AnswerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ2Feedback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feedback:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInstruction2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Then, press the &quot;CHECK&quot; Button to check your answer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ1Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHECK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQ1CheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ2Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHECK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQ2CheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ3Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHECK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQ3CheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Q3: Which of the following is NOT a valid variable type?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ3Choices">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a) String  b) Boolean  c) Box  d) Double"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQ3Answer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQ3AnswerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ3Feedback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feedback:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Q4: &quot;HTF&quot; was encrypted using the Caesar cipher with a shift of 7, what is the original text?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ4Choices">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a) ICS  b) AMY  c) CPU  d) PIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ4Feedback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feedback:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQ4Answer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQ4AnswerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ4Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHECK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQ4CheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Q5: Which of the following is a peripheral device?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ5Choices">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a) Scanner  b) NetBeans  c) ALU  d) RAM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQ5Feedback">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feedback:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtQ5Answer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtQ5AnswerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQ5Check">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CHECK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQ5CheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTotalCorrect">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Light" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total Correct: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTotalIncorrect">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Light" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total Incorrect:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPercentCorrect">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Light" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Percentage Correct:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnStatistics">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="20" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="View My Statistics"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnStatisticsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblScore">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Narrow" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Score: 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInstruction3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Consolas" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Finally, press &quot;View My Statistics&quot; when you&apos;re done!"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
